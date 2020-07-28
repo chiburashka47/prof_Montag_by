@@ -1,8 +1,14 @@
 import React from "react";
-import "./App.scss";
+import Preloader from "../Preloader/preloader";
+import MainPage from "../MainPage/mainPage";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Preloader />
+      <MainPage />
+    </div>
+  );
 }
 
 export default App;

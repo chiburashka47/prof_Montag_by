@@ -16,3 +16,8 @@ code {
   padding: 0;
   box-sizing: border-box;
 }
+
+@import "./Components/App/style/App.scss";
+@import "./Components/Header/style/header.scss";
+@import "./Components/Preloader/style/preloader.scss";
+@import "./Components/MainPage/style/mainPage.scss";
