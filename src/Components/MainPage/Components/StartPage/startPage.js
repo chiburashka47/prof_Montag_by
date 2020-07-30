@@ -4,7 +4,7 @@ import ok from "./style/img/ok.png";
 
 export default function StartPage() {
   return (
-    <div className="startPage">
+    <div className="startPage" id="startPage">
       <div className="startPage__container">
         <div className="startPage__logo">
           <img style={{ width: "100%" }} alt="" src={logo}></img>
@@ -42,8 +42,12 @@ export default function StartPage() {
           </div>
         </div>
         <div className="startPage__btnContainer">
-          <div className="startPage__btnContainer-backСall"></div>
-          <div className="startPage__btnContainer-calculation"></div>
+          <div className="startPage__btnContainer-backСall startPage__btn">
+            Заказать звонок
+          </div>
+          <div className="startPage__btnContainer-calculation startPage__btn">
+            Расчитать стоимость
+          </div>
         </div>
       </div>
     </div>

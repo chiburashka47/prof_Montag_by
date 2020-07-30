@@ -1,0 +1,50 @@
+.certifications {
+  @include dispFlexColumn;
+  width: 100%;
+  background-color: #efefef;
+  color: #000000;
+  font-size: 20px;
+  line-height: 1.55;
+  font-weight: 400;
+
+  &__content {
+    @include dispFlexColumn;
+
+    &__text {
+      padding: 15px 0;
+    }
+
+    &-row {
+      @include dispFlexRow;
+      padding-bottom: 20px;
+    }
+
+    &__img {
+      width: 189px;
+      height: 268px;
+
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      &-1 {
+        background-image: url("./img/1.webp");
+      }
+      &-2 {
+        background-image: url("./img/1.webp");
+      }
+      &-3 {
+        background-image: url("./img/1.webp");
+      }
+      &-4 {
+        background-image: url("./img/1.webp");
+      }
+      &-5 {
+        background-image: url("./img/1.webp");
+      }
+      &-6 {
+        background-image: url("./img/1.webp");
+      }
+    }
+  }
+}

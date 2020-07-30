@@ -6,33 +6,53 @@ export default function Header() {
   return (
     <div className="header">
       <div className="header__allContainer">
-        <div className="header__allContainer-logo">
+        <a href="#startPage" className="header__allContainer-logo">
           <img style={{ width: "100%" }} className="" alt="" src={Logo}></img>
-        </div>
+        </a>
 
         <div className="header__allContainer-navigation">
           <ul className="header__allContainer-navigation__container">
-            <span className="header__allContainer-navigation__text">Акции</span>
-            <span className="header__allContainer-navigation__text">
+            <a
+              href="#promotions"
+              className="header__allContainer-navigation__text"
+            >
+              Акции
+            </a>
+            <a
+              href="#ourWorks"
+              className="header__allContainer-navigation__text"
+            >
               Наши Работы
-            </span>
-            <span className="header__allContainer-navigation__text">
+            </a>
+            <a
+              href="#priceCalc"
+              className="header__allContainer-navigation__text"
+            >
               Расчет Стоимости
-            </span>
-            <span className="header__allContainer-navigation__text">
+            </a>
+            <a
+              href="#contacts"
+              className="header__allContainer-navigation__text"
+            >
               Контакты
-            </span>
+            </a>
           </ul>
         </div>
 
         <div className="header__allContainer-contacts">
           <div className="header__allContainer-contacts__container">
-            <div className="header__allContainer-contacts__text">
+            <a
+              href="tel:++375 29 317 00 41"
+              className="header__allContainer-contacts__text"
+            >
               +375 (29) 317 00 41
-            </div>
-            <div className="header__allContainer-contacts__text">
+            </a>
+            <a
+              href="tel:++375 29 317 00 41"
+              className="header__allContainer-contacts__text"
+            >
               +375 (29) 317 00 41
-            </div>
+            </a>
             {/* <div className="header__allContainer-contacts-instagram__container">
               <img alt="" src={Instagram}></img>
             </div> */}

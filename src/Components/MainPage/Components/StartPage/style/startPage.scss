@@ -1,5 +1,29 @@
 .startPage {
   width: 100%;
+  height: 100vh;
+  background: url("./img/bg2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__btn {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 600;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: #23adad;
+    border-color: #23adad;
+    border-style: solid;
+    width: 300px;
+    height: 80px;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
 
   &__container {
     display: flex;
@@ -35,10 +59,45 @@
     }
 
     &-first {
+      transform: translateX(100vh);
+      opacity: 0;
+      animation: moveLeft 1s 5s linear forwards;
     }
     &-second {
+      transform: translateX(-100vh);
+      opacity: 0;
+      animation: moveRight 1s 6s linear forwards;
     }
     &-third {
+      transform: translateX(100vh);
+      opacity: 0;
+      animation: moveLeft 1s 7s linear forwards;
     }
+  }
+
+  &__btnContainer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    opacity: 0;
+    animation: btnOpacity 1s linear 8s forwards;
+  }
+}
+
+@keyframes moveRight {
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes moveLeft {
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes btnOpacity {
+  100% {
+    opacity: 1;
   }
 }
