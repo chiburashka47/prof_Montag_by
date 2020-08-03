@@ -1,0 +1,23 @@
+.navList {
+  display: flex;
+  padding: 20px 0;
+
+  &__item {
+    background-color: #2a2a2a;
+    border-radius: 0;
+    color: #fff;
+    margin: 0 8px;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 14px;
+    border: 0 solid;
+    border-bottom-color: #fff;
+    border-bottom-width: 3px;
+    padding: 0.35rem 0.65rem;
+    cursor: pointer;
+  }
+
+  .active {
+    border-bottom-color: #f58220;
+  }
+}

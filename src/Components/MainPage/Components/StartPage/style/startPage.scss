@@ -13,8 +13,11 @@
     font-weight: 600;
     border-width: 1px;
     border-radius: 10px;
-    background-color: #23adad;
-    border-color: #23adad;
+
+    background-color: rgb(3, 134, 3);
+
+    border-color: rgb(19, 18, 18);
+
     border-style: solid;
     width: 300px;
     height: 80px;
@@ -23,6 +26,8 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+
+    animation: btnOpacityColor 1s linear 9s forwards;
   }
 
   &__container {
@@ -99,5 +104,11 @@
 @keyframes btnOpacity {
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes btnOpacityColor {
+  100% {
+    background-color: rgba(71, 71, 71, 0.863);
   }
 }
