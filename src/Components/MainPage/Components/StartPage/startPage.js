@@ -17,7 +17,7 @@ export default function StartPage() {
               className="startPage__descContainer__img"
             ></img>
             <span className="startPage__descContainer__text">
-              text text text
+              Профессиональный монтаж
             </span>
           </div>
           <div className="startPage__descContainer-second startPage__descContainer-row">
@@ -27,7 +27,7 @@ export default function StartPage() {
               className="startPage__descContainer__img"
             ></img>
             <span className="startPage__descContainer__text">
-              text text text
+              Грамотная консультация
             </span>
           </div>
           <div className="startPage__descContainer-third startPage__descContainer-row">
@@ -37,7 +37,7 @@ export default function StartPage() {
               className="startPage__descContainer__img"
             ></img>
             <span className="startPage__descContainer__text">
-              text text text
+              Честные и фиксированные цены
             </span>
           </div>
         </div>
@@ -45,7 +45,18 @@ export default function StartPage() {
           <div className="startPage__btnContainer-backСall startPage__btn">
             Заказать звонок
           </div>
-          <div className="startPage__btnContainer-calculation startPage__btn">
+
+          <div
+            onClick={() => {
+              window.scrollTo(
+                0,
+                document.getElementById("priceCalc").offsetTop -
+                  document.getElementById("header").getBoundingClientRect()
+                    .height
+              );
+            }}
+            className="startPage__btnContainer-calculation startPage__btn"
+          >
             Расчитать стоимость
           </div>
         </div>

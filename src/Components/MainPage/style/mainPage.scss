@@ -6,13 +6,13 @@
   align-items: center;
   overflow-x: hidden;
   overflow: hidden;
-  height: 100%;
-  animation: startPage linear 0.1s 4.9s forwards;
+  // height: 100%;
+  // animation: startPage linear 0.1s 4.9s forwards;
 
   .section__header {
     width: 100%;
     height: 42px;
-    background-color: rgb(95, 95, 95);
+    background-color: rgb(69, 69, 69);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,3 +35,4 @@
 @import "../Components/Contacts/style/contacts.scss";
 @import "../Components/Certifications/style/certifications.scss";
 @import "../Components/Footer/style/footer.scss";
+@import "../Components/OurAdvantages/style/ourAdvantages.scss";

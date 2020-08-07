@@ -1,7 +1,7 @@
 .startPage {
   width: 100%;
   height: 100vh;
-  background: url("./img/bg2.jpg");
+  background: url("./img/bgNew.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@
   &__descContainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: baseline;
 
     &__text {
       font-size: 18px;

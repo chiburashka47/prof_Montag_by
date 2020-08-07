@@ -7,6 +7,7 @@ import PriceCalc from "./Components/PriceCalc/priceCalc";
 import Certifications from "./Components/Certifications/certifications";
 import Contacts from "./Components/Contacts/contacts";
 import Footer from "./Components/Footer/footer";
+import OurAdvantages from "./Components/OurAdvantages/ourAdvantages";
 
 export default function MainPage() {
   return (
@@ -14,6 +15,7 @@ export default function MainPage() {
       <Header />
       <StartPage />
       <Promotions />
+      <OurAdvantages/>
       <OurWorks />
       <PriceCalc />
       <Certifications />

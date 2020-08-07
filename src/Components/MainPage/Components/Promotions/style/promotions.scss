@@ -4,9 +4,55 @@
 
   &__content {
     @include dispFlexColumn;
+    width: 80%;
+    padding: 30px 0;
 
     &-row {
+      width: 100%;
       @include dispFlexRow;
+      padding: 20px 10px;
+      margin-bottom: 40px;
+      position: relative;
+      border-top: 1px solid #ebebeb;
+      justify-content: start;
+      align-items: flex-start;
+    }
+
+    &-row::before {
+      content: " ";
+      display: block !important;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+
+      background: -webkit-linear-gradient(#fff, #f8f8f8);
+    }
+
+    &__img {
+      width: 18%;
+      padding: 0px 10px;
+      margin-right: 20px;
+    }
+
+    &__desk {
+      &-container {
+        @include dispFlexColumn;
+        align-items: flex-start;
+        height: 100%;
+      }
+      &-title {
+        font-size: 28px;
+        color: #1d2635;
+        text-align: left;
+        font-weight: 600;
+      }
+      &-text {
+        color: #545454;
+        padding-top: 50px;
+      }
     }
   }
 }

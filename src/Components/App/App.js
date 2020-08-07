@@ -5,7 +5,7 @@ import MainPage from "../MainPage/mainPage";
 function App() {
   return (
     <div className="App">
-      <Preloader />
+      {/* <Preloader /> */}
       <MainPage />
     </div>
   );

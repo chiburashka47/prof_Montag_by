@@ -1,0 +1,36 @@
+.ourAdvantages {
+  @include dispFlexColumn;
+  width: 100%;
+
+  &__content {
+    @include dispFlexRow;
+
+    justify-content: space-around;
+
+    width: 100%;
+    padding: 10px 40px;
+
+    &-column {
+      @include dispFlexColumn;
+
+      justify-content: flex-start;
+      align-items: baseline;
+      margin: 10px 0;
+    }
+
+    &__item {
+      @include dispFlexRow;
+
+      padding: 10px 0;
+    }
+    &__text {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 4px 0 2px 10px;
+    }
+
+    &__img {
+      width: 30px;
+    }
+  }
+}

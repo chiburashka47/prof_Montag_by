@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Logo from "./style/img/horizontal_white.svg";
 import Instagram from "./style/img/instagramWhite.png";
 
 export default function Header() {
+  const [headerHeight, setHeaderHeight] = useState(0);
+
+  function getHeaderHeight() {
+    setHeaderHeight(
+      document.getElementById("header").getBoundingClientRect().height
+    );
+  }
+
+  useEffect(() => {
+    getHeaderHeight();
+  });
+
   return (
-    <div className="header">
+    <div className="header" id="header">
       <div className="header__allContainer">
         <a href="#startPage" className="header__allContainer-logo">
           <img style={{ width: "100%" }} className="" alt="" src={Logo}></img>
@@ -12,30 +24,50 @@ export default function Header() {
 
         <div className="header__allContainer-navigation">
           <ul className="header__allContainer-navigation__container">
-            <a
-              href="#promotions"
+            <div
               className="header__allContainer-navigation__text"
+              onClick={() => {
+                window.scrollTo(
+                  0,
+                  document.getElementById("promotions").offsetTop - headerHeight
+                );
+              }}
             >
               Акции
-            </a>
-            <a
-              href="#ourWorks"
+            </div>
+            <div
               className="header__allContainer-navigation__text"
+              onClick={() => {
+                window.scrollTo(
+                  0,
+                  document.getElementById("ourWorks").offsetTop - headerHeight
+                );
+              }}
             >
               Наши Работы
-            </a>
-            <a
-              href="#priceCalc"
+            </div>
+            <div
+              onClick={() => {
+                window.scrollTo(
+                  0,
+                  document.getElementById("priceCalc").offsetTop - headerHeight
+                );
+              }}
               className="header__allContainer-navigation__text"
             >
               Расчет Стоимости
-            </a>
-            <a
-              href="#contacts"
+            </div>
+            <div
+              onClick={() => {
+                window.scrollTo(
+                  0,
+                  document.getElementById("contacts").offsetTop - headerHeight
+                );
+              }}
               className="header__allContainer-navigation__text"
             >
               Контакты
-            </a>
+            </div>
           </ul>
         </div>
 
