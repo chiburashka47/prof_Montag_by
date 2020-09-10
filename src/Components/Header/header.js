@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Logo from "./style/img/horizontal_white.svg";
-import Instagram from "./style/img/instagramWhite.png";
+import a1 from "./style/img/a1.png";
+import mtc from "./style/img/mtc.png";
 
 export default function Header() {
   const [headerHeight, setHeaderHeight] = useState(0);
@@ -74,20 +75,24 @@ export default function Header() {
         <div className="header__allContainer-contacts">
           <div className="header__allContainer-contacts__container">
             <a
-              href="tel:++375 29 317 00 41"
+              href="tel:+375295705544"
               className="header__allContainer-contacts__text"
             >
-              +375 (29) 317 00 41
+              <div className="header__allContainer-contacts__container__img">
+                <img alt="" src={a1}></img>
+              </div>
+              +375(29)570-55-44
             </a>
+
             <a
-              href="tel:++375 29 317 00 41"
+              href="tel:+375295705542"
               className="header__allContainer-contacts__text"
             >
-              +375 (29) 317 00 41
+              <div className="header__allContainer-contacts__container__img">
+                <img alt="" src={mtc}></img>
+              </div>
+              +375(29)570-55-42
             </a>
-            {/* <div className="header__allContainer-contacts-instagram__container">
-              <img alt="" src={Instagram}></img>
-            </div> */}
           </div>
         </div>
       </div>

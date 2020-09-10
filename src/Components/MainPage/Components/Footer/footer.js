@@ -9,12 +9,9 @@ export default function Footer() {
       </div>
 
       <div className="footer__content">
-        <span className="footer__content__text"> УНП 191496489</span>
+        <span className="footer__content__text"> УНП 693143345</span>
         <span className="footer__content__text">
-          натяжные потолки любой сложности{" "}
-        </span>
-        <span className="footer__content__text">
-          Copyright © ЧСУП "ЗанатСтрой", 2011-2020
+          натяжные потолки любой сложности
         </span>
       </div>
     </div>

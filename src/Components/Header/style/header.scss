@@ -45,18 +45,25 @@
       &__container {
         text-align: right;
         border-left: 1px solid white;
-
         padding-left: 7px;
         display: flex;
-        align-items: center;
+        align-items: baseline;
         flex-direction: column;
         justify-content: center;
+
+        &__img {
+          width: 20px;
+          margin-right: 5px;
+        }
       }
 
       &__text {
         color: white;
         cursor: pointer;
         text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
   }

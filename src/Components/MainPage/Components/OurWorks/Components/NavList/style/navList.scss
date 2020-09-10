@@ -15,6 +15,10 @@
     border-bottom-width: 3px;
     padding: 0.35rem 0.65rem;
     cursor: pointer;
+
+    &:hover {
+      background-color: black;
+    }
   }
 
   .active {

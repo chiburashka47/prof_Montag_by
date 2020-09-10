@@ -8,6 +8,35 @@
 
     &__left {
       width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: baseline;
+      padding-left: 14%;
+
+      &-title {
+        font-size: 34px;
+        padding-bottom: 20px;
+      }
+
+      &__row {
+        color: black;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 34px;
+        padding-bottom: 10px;
+        font-family: "Times New Roman", Times, serif;
+
+        &__img {
+          width: 40px;
+          padding-right: 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
     }
     &__right {
       width: 40%;

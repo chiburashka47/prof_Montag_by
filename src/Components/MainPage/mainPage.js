@@ -8,6 +8,7 @@ import Certifications from "./Components/Certifications/certifications";
 import Contacts from "./Components/Contacts/contacts";
 import Footer from "./Components/Footer/footer";
 import OurAdvantages from "./Components/OurAdvantages/ourAdvantages";
+import PoweredBy from "./Components/PoweredBy/poweredBy";
 
 export default function MainPage() {
   return (
@@ -15,12 +16,13 @@ export default function MainPage() {
       <Header />
       <StartPage />
       <Promotions />
-      <OurAdvantages/>
+      <OurAdvantages />
       <OurWorks />
       <PriceCalc />
       <Certifications />
       <Contacts />
       <Footer />
+      <PoweredBy />
     </div>
   );
 }

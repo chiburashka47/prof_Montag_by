@@ -4,13 +4,13 @@ import Slider from "./Components/Slider/slider";
 
 export default function OurWorks() {
   const [navList, setNavList] = useState([
-    "Световые линии",
-    "Парящие потолки",
-    "Теневое примыкание",
-    "Slott",
-    "Двухуровневые потолки",
-    "Одноуровневые потолки",
-    "Трековая система",
+    { name: "Световые линии" },
+    { name: "Парящие потолки" },
+    { name: "Теневое примыкание" },
+    { name: "Slott" },
+    { name: "Двухуровневые потолки" },
+    { name: "Одноуровневые потолки" },
+    { name: "Трековая система" },
   ]);
 
   return (
