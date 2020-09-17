@@ -1,7 +1,9 @@
 .slider {
   @include dispFlexColumn();
   width: 90%;
-  position: relative;
+  position: absolute;
+  opacity: 0;
+  top: 90px;
 
   &__textContainer {
     display: flex;
@@ -19,6 +21,7 @@
     display: flex;
     flex-wrap: wrap;
     // position: absolute;
+    padding-bottom: 40px;
 
     &__item {
       flex: 0 0 25%;

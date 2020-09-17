@@ -4,10 +4,18 @@
 
   &__content {
     @include dispFlexColumn;
+    position: relative;
+    height: 800px;
+    justify-content: flex-start;
+    width: 100%;
 
     &-row {
       @include dispFlexRow;
     }
+  }
+
+  .active {
+    opacity: 1;
   }
 }
 
