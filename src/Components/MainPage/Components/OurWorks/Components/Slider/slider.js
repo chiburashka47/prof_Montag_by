@@ -1,7 +1,7 @@
 import React from "react";
 import getPhoto from "../../../../../../public/getPhoto";
 
-export default function Slider({ activeItem, navList }) {
+export default function Slider({ navList }) {
   return (
     <>
       {navList.map((elem, index) => {
