@@ -1,2 +1,48 @@
 .slider {
+  @include dispFlexColumn();
+  width: 90%;
+  position: relative;
+
+  &__textContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 40px;
+    width: 65%;
+    &-text {
+      font-size: 16px;
+    }
+  }
+
+  &__photoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    // position: absolute;
+
+    &__item {
+      flex: 0 0 25%;
+      max-width: 25%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-bottom: 15px;
+      height: 270px;
+
+      &-container {
+        border: 0;
+        background-color: #e6e7e9 !important;
+        height: 100%;
+      }
+      &-img {
+        background-color: transparent;
+        height: 100%;
+        padding: 5px;
+
+        img {
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
 }

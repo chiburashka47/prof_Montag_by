@@ -1,13 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
-export default function NavList({ navlist }) {
-  const removeACtive = () => {
-    let item = document.querySelectorAll(".navList__item");
-    item.forEach((elem) => {
-      elem.classList.remove("active");
-    });
-  };
-
+export default function NavList({ navlist, elemActive }) {
   return (
     <div className="navList">
       {navlist.map((item, index) => {
@@ -16,8 +9,7 @@ export default function NavList({ navlist }) {
             key={index}
             className={`navList__item ${item.active ? "active" : " "}`}
             onClick={(elem) => {
-              removeACtive();
-              elem.target.classList.add("active");
+              elemActive(index);
             }}
           >
             {item.name}
