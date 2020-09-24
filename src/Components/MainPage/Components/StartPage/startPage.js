@@ -42,9 +42,12 @@ export default function StartPage() {
           </div>
         </div>
         <div className="startPage__btnContainer">
-          <div className="startPage__btnContainer-backСall startPage__btn">
-            Заказать звонок
-          </div>
+          <a
+            href="tel:+375295705544"
+            className="startPage__btnContainer-backСall startPage__btn"
+          >
+            Связатья с нами
+          </a>
 
           <div
             onClick={() => {

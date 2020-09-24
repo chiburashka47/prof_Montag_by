@@ -12,6 +12,7 @@
 
     &__text {
       padding: 15px 0;
+      text-align: center;
     }
 
     &-row {
@@ -22,6 +23,7 @@
     &__img {
       width: 189px;
       height: 268px;
+      padding: 0 5px;
 
       background-position: center center;
       background-size: cover;
@@ -48,3 +50,5 @@
     }
   }
 }
+
+@import "./media/media_certifications.scss";

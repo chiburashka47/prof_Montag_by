@@ -15,6 +15,7 @@
     border-bottom-width: 3px;
     padding: 0.35rem 0.65rem;
     cursor: pointer;
+    text-align: center;
 
     &:hover {
       background-color: black;
@@ -25,3 +26,5 @@
     border-bottom-color: #00c210;
   }
 }
+
+@import "./media/media_navList.scss";

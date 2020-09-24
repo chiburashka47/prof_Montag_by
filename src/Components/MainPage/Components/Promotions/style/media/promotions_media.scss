@@ -1,0 +1,51 @@
+@media screen and(max-width : 1060px) {
+  .promotions {
+    &__content {
+      &-row {
+      }
+
+      &__img {
+      }
+
+      &__desk {
+        &-container {
+        }
+        &-title {
+          font-size: 18px;
+        }
+        &-text {
+          padding-top: 20px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width : 500px) {
+  .promotions {
+    &__content {
+      &-row {
+      }
+
+      &__img {
+        width: 32%;
+        padding: 0px 10px;
+        margin-right: 5px;
+      }
+
+      &__desk {
+        &-container {
+          width: 68%;
+        }
+        &-title {
+          font-size: 16px;
+        }
+        &-text {
+          padding-top: 10px;
+          font-size: 11px;
+        }
+      }
+    }
+  }
+}

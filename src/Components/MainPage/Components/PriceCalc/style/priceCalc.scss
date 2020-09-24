@@ -19,6 +19,8 @@
 
     &__desc {
       padding-top: 20px;
+      text-align: center;
+      width: 80%;
       &-text {
         font-size: 16px;
       }
@@ -59,3 +61,5 @@
     }
   }
 }
+
+@import "./media/media_priceCalc.scss";

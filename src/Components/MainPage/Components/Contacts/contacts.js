@@ -12,11 +12,11 @@ export default function Contacts() {
       <div className="contacts__content">
         <div className="contacts__content__left">
           <span className="contacts__content__left-title">Наши Контакты:</span>
-          <a href="tel:+375295705544" className="contacts__content__left__row">
+          <a href="tel:+375445705542" className="contacts__content__left__row">
             <div className="contacts__content__left__row__img">
               <img alt="" src={a1}></img>
             </div>
-            +375(29)570-55-44
+            +375(44)570-55-42
           </a>
           <a href="tel:+375295705542" className="contacts__content__left__row">
             <div className="contacts__content__left__row__img">

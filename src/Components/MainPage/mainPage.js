@@ -15,9 +15,9 @@ export default function MainPage() {
     <div className="mainPage">
       <Header />
       <StartPage />
-      <Promotions />
       <OurAdvantages />
       <OurWorks />
+      <Promotions />
       <PriceCalc />
       <Certifications />
       <Contacts />

@@ -90,9 +90,12 @@ export default function PriceCalc() {
           </span>
         </div>
         <div className="priceCalc__content__btn">
-          <div onClick={() => {}} className=" startPage__btn">
-            Заказать звонок
-          </div>
+          <a
+            href="tel:+375295705544"
+            className="startPage__btnContainer-backСall startPage__btn"
+          >
+            Связатья с нами
+          </a>
         </div>
       </div>
     </div>

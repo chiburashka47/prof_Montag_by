@@ -39,6 +39,7 @@
 
     &__desk {
       &-container {
+        width: 82%;
         @include dispFlexColumn;
         align-items: flex-start;
         height: 100%;
@@ -56,3 +57,5 @@
     }
   }
 }
+
+@import "./media/promotions_media.scss";

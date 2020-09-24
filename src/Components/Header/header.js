@@ -79,19 +79,19 @@ export default function Header() {
               className="header__allContainer-contacts__text"
             >
               <div className="header__allContainer-contacts__container__img">
-                <img alt="" src={a1}></img>
+                <img alt="" src={mtc}></img>
               </div>
               +375(29)570-55-44
             </a>
 
             <a
-              href="tel:+375295705542"
+              href="tel:+375445705542"
               className="header__allContainer-contacts__text"
             >
               <div className="header__allContainer-contacts__container__img">
-                <img alt="" src={mtc}></img>
+                <img alt="" src={a1}></img>
               </div>
-              +375(29)570-55-42
+              +375(44)570-55-42
             </a>
           </div>
         </div>

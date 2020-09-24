@@ -1,0 +1,39 @@
+@media screen and(max-width : 1000px) {
+  .ourAdvantages {
+    &__content {
+      &-column {
+      }
+
+      &__item {
+      }
+      &__text {
+        font-size: 14px;
+      }
+
+      &__img {
+        width: 25px;
+      }
+    }
+  }
+}
+
+@media screen and(max-width : 500px) {
+  .ourAdvantages {
+    &__content {
+      flex-direction: column;
+      &-column {
+        margin: 0;
+      }
+
+      &__item {
+      }
+      &__text {
+        font-size: 14px;
+      }
+
+      &__img {
+        width: 25px;
+      }
+    }
+  }
+}

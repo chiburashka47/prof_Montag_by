@@ -37,3 +37,19 @@
 @import "../Components/Footer/style/footer.scss";
 @import "../Components/OurAdvantages/style/ourAdvantages.scss";
 @import "../Components/poweredBy/style/poweredBy.scss";
+
+@media screen and(max-width: 500px) {
+  .mainPage {
+    .section__header {
+      font-size: 14px;
+    }
+  }
+}
+
+@media screen and(max-width: 340px) {
+  .mainPage {
+    .section__header {
+      font-size: 12px;
+    }
+  }
+}
