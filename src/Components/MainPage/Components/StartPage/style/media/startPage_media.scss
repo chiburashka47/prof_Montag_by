@@ -87,3 +87,40 @@
     }
   }
 }
+
+@media screen and(max-width : 900px) and(max-height : 450px) {
+  .startPage {
+    height: auto;
+    &__btn {
+    }
+
+    &__container {
+    }
+
+    &__logo {
+    }
+
+    &__descContainer {
+      &__text {
+      }
+
+      &__img {
+        width: 25px;
+      }
+
+      &-row {
+      }
+
+      &-first {
+      }
+      &-second {
+      }
+      &-third {
+      }
+    }
+
+    &__btnContainer {
+      padding-bottom: 20px;
+    }
+  }
+}

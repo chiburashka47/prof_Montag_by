@@ -56,7 +56,7 @@ import soaringLine_4 from "./photo/soaringLine_4.jpg";
 import soaringLine_5 from "./photo/soaringLine_5.jpg";
 import soaringLine_6 from "./photo/soaringLine_6.jpg";
 import soaringLine_7 from "./photo/soaringLine_7.jpg";
-import soaringCeilin_0 from "./photo/soaringCeilin_1.jpg";
+import soaringCeilin_0 from "./photo/soaringCeilin_0.jpg";
 import soaringCeilin_1 from "./photo/soaringCeilin_1.jpg";
 import soaringCeilin_2 from "./photo/soaringCeilin_2.jpg";
 import soaringCeilin_3 from "./photo/soaringCeilin_3.jpg";

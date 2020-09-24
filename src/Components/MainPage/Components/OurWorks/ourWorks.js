@@ -3,7 +3,7 @@ import NavList from "./Components/NavList/navList";
 import Slider from "./Components/Slider/slider";
 
 export default function OurWorks() {
-  const [navList, setNavList] = useState([
+  const [navList] = useState([
     {
       name: "Двухуровневые потолки",
       active: true,
