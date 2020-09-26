@@ -76,3 +76,16 @@
     visibility: hidden;
   }
 }
+
+@media screen and(max-width:770px) {
+  .preloader {
+    &__wrapper {
+      &__container {
+      }
+
+      &__icon {
+        width: 50vw;
+      }
+    }
+  }
+}
